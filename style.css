@@ -248,3 +248,113 @@ footer small {
     padding: 55px 7%;
   }
 }
+
+/* TAMBAHAN DESAIN TIMEWISE */
+
+.problem,
+.purpose,
+.target,
+.solution {
+  padding: 75px 10%;
+  text-align: center;
+}
+
+.problem {
+  background: #fff0f6;
+}
+
+.problem h2,
+.purpose h2,
+.target h2,
+.solution h2 {
+  font-size: 30px;
+  margin: 12px 0 20px;
+}
+
+.problem-intro {
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.problem-grid,
+.purpose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.problem-item,
+.purpose-grid > div {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px #e7c8d533;
+}
+
+.problem-item span,
+.purpose-grid span {
+  font-size: 32px;
+}
+
+.problem-item h3,
+.purpose-grid h3 {
+  color: #c76d97;
+  margin: 10px 0;
+}
+
+.problem-item ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.purpose {
+  background: white;
+}
+
+.target {
+  background: #ffe7f1;
+}
+
+.target > p:last-child,
+.solution > p:not(.tag) {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.solution {
+  background: #fff9fc;
+}
+
+.solution-list {
+  max-width: 550px;
+  margin: 25px auto 0;
+  padding: 20px;
+  background: white;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 5px 20px #e7c8d533;
+}
+
+.solution-list p {
+  margin: 10px 0;
+  color: #c76d97;
+}
+
+/* TAMPILAN HP */
+@media (max-width: 650px) {
+  .problem-grid,
+  .purpose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .problem,
+  .purpose,
+  .target,
+  .solution {
+    padding: 55px 7%;
+  }
+}
