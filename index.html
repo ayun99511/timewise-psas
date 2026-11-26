@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeWise - Pengelolaan Waktu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h2>♡ TimeWise</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#planner">Planner</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="tag">YOUR TIME, YOUR FUTURE</p>
+    <h1>Atur Waktumu,<br><span>Raih Impianmu.</span></h1>
+    <p>
+      Platform sederhana untuk membantu pelajar
+      mengatur jadwal, menyelesaikan tugas,
+      dan menjadi lebih produktif.
+    </p>
+    <a href="#planner" class="main-btn">Mulai Sekarang →</a>
+  </div>
+  <div class="hero-icon">⏰</div>
+</section>
+
+<section class="about" id="about">
+  <p class="tag">ABOUT TIMEWISE</p>
+  <h2>Kenapa Mengatur Waktu Itu Penting?</h2>
+  <p>
+    Penggunaan gadget yang tidak terkontrol dapat
+    membuat pelajar kehilangan waktu belajar dan
+    menunda tugas. TimeWise hadir untuk membantu
+    mengatur kegiatan sehari-hari dengan lebih baik.
+  </p>
+
+  <div class="features">
+    <div class="feature">
+      <span>📅</span>
+      <h3>Jadwal Harian</h3>
+      <p>Susun kegiatanmu agar lebih teratur.</p>
+    </div>
+    <div class="feature">
+      <span>📝</span>
+      <h3>Daftar Tugas</h3>
+      <p>Catat dan pantau tugas yang harus diselesaikan.</p>
+    </div>
+    <div class="feature">
+      <span>🎯</span>
+      <h3>Target Belajar</h3>
+      <p>Bangun kebiasaan belajar yang konsisten.</p>
+    </div>
+  </div>
+</section>
+
+<section class="planner" id="planner">
+  <p class="tag">MY PRODUCTIVITY</p>
+  <h2>My Daily Planner</h2>
+  <p>Rencanakan kegiatanmu mulai hari ini!</p>
+
+  <div class="planner-card">
+    <h3>Tambahkan Kegiatan</h3>
+    <input type="text" id="taskInput"
+      placeholder="Contoh: Belajar Geografi">
+
+    <input type="time" id="taskTime">
+
+    <button onclick="addTask()">+ Tambahkan</button>
+
+    <h3 class="task-title">Daftar Kegiatan</h3>
+    <ul id="taskList"></ul>
+
+    <div class="progress">
+      <p>Progress kegiatan: <span id="progressText">0%</span></p>
+      <div class="progress-bg">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tips">
+  <h2>Tips Mengelola Waktu</h2>
+  <div class="tip-box">
+    <p>🌷 Buat jadwal kegiatan setiap hari.</p>
+    <p>🌷 Kurangi penggunaan gadget saat belajar.</p>
+    <p>🌷 Dahulukan tugas yang penting.</p>
+    <p>🌷 Berikan waktu istirahat yang cukup.</p>
+  </div>
+</section>
+
+<footer>
+  <h2>♡ TimeWise</h2>
+  <p>Bijak Mengelola Waktu di Era Digital</p>
+  <p>Proyek PSAS Informatika Kelas XI</p>
+  <small>© 2026 TimeWise. Made with care.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
